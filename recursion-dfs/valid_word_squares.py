@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def validWordSquare(self, words: List[str]) -> bool:
         rows = len(words)
